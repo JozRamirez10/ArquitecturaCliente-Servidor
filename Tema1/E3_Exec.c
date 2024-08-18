@@ -11,7 +11,7 @@
 
 int main(void){
     char *args[] = {"/bin/ls", NULL};
-    if(execve("bin/ls", args, NULL) == -1){
+    if(execve("/bin/ls", args, NULL) == -1){
         perror("execve");
         exit(EXIT_FAILURE);
     }
