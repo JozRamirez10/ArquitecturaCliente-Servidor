@@ -1,2 +1,8 @@
 #Ignora archivos ejecutables
 *.out
+
+.vscode
+.vscode/*
+
+./.vscode
+./.vscode/*
